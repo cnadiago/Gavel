@@ -16,7 +16,7 @@ a {text-decoration: none;color:white}
     
 }
 .logo-icon {
-    background-image: url(../assets/Logo.png);
+    background-image: url(../Gavel/assets/Logo.png);
     background-size: cover;
     height: 110px;
     width: 100px;
@@ -242,7 +242,12 @@ button{
     border: 1px solid;
   }
 
-/* css top button  */
+/* footer  */
+.kontakKami .gambar {
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+}
 #myBtn {
     display: none; 
     position: fixed;
@@ -469,6 +474,24 @@ button{
         font-size: 8px;
       }
     
+      .kontakKami {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .kontakKami .paragraf{
+        flex: 1;
+        text-align: center;
+    }
+
+    .kontakKami .gambar{
+        flex: 1;
+        align-items: center;
+        height: 30px;
+        width: auto;
+    }
+
        #myBtn:hover {
         background-color: #555;
       }
